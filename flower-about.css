@@ -1,9 +1,76 @@
-main {
+.main {
     position: relative;
 width: 1440px;
 height: 1870px;
 
-background: #FFFFFF;
+background: white;
+}
+.door {
+    position: absolute;
+width: 402px;
+height: 492px;
+left: 91px;
+top: 251px;
+
+}
+.studio{
+    position: absolute;
+width: 355px;
+height: 417px;
+left: 411px;
+top: 437px;
+;
+
+}
+.who {
+    position: absolute;
+    width: 597px;
+    height: 346px;
+    left: 169px;
+    top: 78px;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 181px;
+    text-align: right;
+    
+    color: #FFB800;
+    
+}
+.welcome {
+    position: absolute;
+width: 196px;
+height: 30px;
+left: 820px;
+top: 206px;
+
+font-family: 'Source Sans Pro', sans-serif;
+font-style: italic;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+
+color: #000000;
+
+
+}
+.maintext {
+    position: absolute;
+    width: 339px;
+    height: 400px;
+    left: 820px;
+    top: 278px;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    
+    color: #000000;
+    
 }
 
 .logo {
@@ -23,77 +90,8 @@ color: #FFFFFF;
 
 mix-blend-mode: difference;
 }
-
-.star {
-    position: absolute;
-    width: 812px;
-    height: 377px;
-    left: 334px;
-    top: 185px;
-    
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 144px;
-    line-height: 181px;
-    
-    color: #00FF0A;
-    
-
-}
-
-.floral {
-    position: absolute;
-    width: 812px;
-    height: 377px;
-    left: 400px;
-    top: 185px;
-    
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 144px;
-    line-height: 181px;
-    
-    color: #FFFFFF;
-}
-
-.stylists {
-    position: absolute;
-width: 812px;
-height: 377px;
-left: 468px;
-top: 312px;
-
-font-family: 'Source Sans Pro', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 144px;
-line-height: 181px;
-
-color: #FFFFFF;
-
-
-}
-.subheader {
-
-position: absolute;
-width: 269px;
-height: 90px;
-left: 360px;
-top: 510px;
-
-font-family: 'Source Sans Pro', sans-serif;
-font-style: italic;
-font-weight: bold;
-font-size: 18px;
-line-height: 23px;
-
-color: #00FF0A;
-
-}
 .nav{
-    float: right;
+    position: absolute;
 width: 115px;
 height: 356px;
 left: 500px;
@@ -185,38 +183,4 @@ top: 104px;
     color: #FFFFFF;
     
     mix-blend-mode: difference;
-}
-.wedo1 {
-    position: absolute;
-width: 308px;
-height: 227px;
-left: 532px;
-top: 1254px;
-
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-font-style: normal;
-font-weight: bold;
-font-size: 72px;
-line-height: 91px;
-
-color: #0038FF;
-
-}
-.wedo2 {
-    position: absolute;
-width: 308px;
-height: 227px;
-left: 532px;
-top: 1453px;
-
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-font-style: normal;
-font-weight: bold;
-font-size: 72px;
-line-height: 91px;
-
-color: #0038FF;
-
 }
